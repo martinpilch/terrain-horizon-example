@@ -33,8 +33,8 @@ class ViewController: NSViewController {
         sceneView.pointOfView = cameraNode
         camera.fieldOfView = 40
         camera.zFar = 400000
-        sceneView.pointOfView?.position = SCNVector3(20000, 1000, 20000)
-        sceneView.pointOfView?.look(at: SCNVector3(-20000, 500, 20000))
+        sceneView.pointOfView?.position = SCNVector3(20000, 600, 20000)
+        sceneView.pointOfView?.look(at: SCNVector3(-20000, 300, 20000))
 
         node.geometry?.firstMaterial?.diffuse.contents = NSColor(red: 1, green: 0, blue: 0, alpha: 1)
         node.geometry?.firstMaterial?.specular.contents = NSColor.white
